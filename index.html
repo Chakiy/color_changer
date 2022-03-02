@@ -10,17 +10,24 @@
   <body>
     <div class="container">
       <div class="input_colors">
-        <label for="">Degrees</label>
-        <input id="deg" type="range" value="0" min="0" max="360" />
+        <div class="range">
+          <!-- <label for="">Degrees</label> -->
+          <span id="deg_info" class="deg_label">0</span>
+          <input id="deg" type="range" value="0" min="0" max="360" />
+          <div class="max_range">
+            <span>0°</span>
+            <span>360°</span>
+          </div>
+        </div>
         <div class="color_pickers">
           <div class="picker_item">
             <label for="">Color 1</label>
-            <input id="col1" type="color" value="#0099F7" />
+            <input id="col1" type="color" value="#ffaaff" />
           </div>
 
           <div class="picker_item">
             <label for="">Color 2</label>
-            <input id="col2" type="color" value="#F11712" />
+            <input id="col2" type="color" value="#adffff" />
           </div>
         </div>
         <!-- <input id="col" type="color" value="#0099F7" /> -->
@@ -29,6 +36,7 @@
         <!-- <a id="bg" class="btn" href="#">change bg</a> -->
         <a id="clear" class="btn" href="#">clear</a>
       </div>
+      <div class="output"></div>
     </div>
     <script src="./js/index.js"></script>
   </body>
