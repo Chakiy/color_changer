@@ -5,9 +5,9 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    height: 100vh;
+    padding: 40px;
 }
 
 
@@ -161,8 +161,9 @@ label {
     background-color: rgba(0, 102, 255, 0.747);
     color: rgba(0, 0, 0, 0.856);
     padding: 40px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    /* margin-bottom: 0; */
+    padding-bottom: 40px;
+    text-align: center;
 }
 
 
