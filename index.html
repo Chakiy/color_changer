@@ -11,14 +11,22 @@
     <div class="container">
       <div class="input_colors">
         <label for="">Degrees</label>
-        <input id="deg" type="text" placeholder="45" />
-        <label for="">Color 1</label>
-        <input id="col1" type="text" placeholder="#0099F7" />
-        <label for="">Color 2</label>
-        <input id="col2" type="text" placeholder="#F11712" />
+        <input id="deg" type="range" value="0" min="0" max="360" />
+        <div class="color_pickers">
+          <div class="picker_item">
+            <label for="">Color 1</label>
+            <input id="col1" type="color" value="#0099F7" />
+          </div>
+
+          <div class="picker_item">
+            <label for="">Color 2</label>
+            <input id="col2" type="color" value="#F11712" />
+          </div>
+        </div>
+        <!-- <input id="col" type="color" value="#0099F7" /> -->
       </div>
       <div class="btn_changers">
-        <a id="bg" class="btn" href="#">change bg</a>
+        <!-- <a id="bg" class="btn" href="#">change bg</a> -->
         <a id="clear" class="btn" href="#">clear</a>
       </div>
     </div>
