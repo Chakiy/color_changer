@@ -164,8 +164,14 @@ label {
     /* margin-bottom: 0; */
     padding-bottom: 40px;
     text-align: center;
+    /* user-select: none; */
 }
 
+.output::selection{
+    color: yellow;
+    background-color: #faf;
+    
+}
 
 
 /* #deg::-moz-range-track {
